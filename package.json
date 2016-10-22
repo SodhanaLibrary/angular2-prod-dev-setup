@@ -1,6 +1,8 @@
 {
-  "name": "angular-quickstart",
-  "version": "1.0.0",
+  "name": "angular-prod-dev-setup",
+  "version": "1.0.1",
+  "description": "Angular2 Project Setup For Development And Production",
+  "author": "sodhanalibrary <sodhanaware@gmail.com> (http://www.sodhanalibrary.com)",
   "scripts": {
     "clean": "rm -rf dist && mkdir dist && mkdir dist/dependencies",
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
@@ -40,5 +42,9 @@
     "typings":"^1.3.2",
     "uglify-js":"^2.7.3",
     "browserify":"^13.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/SodhanaLibrary/angular2-prod-dev-setup.git"
   }
 }
